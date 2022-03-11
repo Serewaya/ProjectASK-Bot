@@ -41,7 +41,7 @@ async def on_member_join(member):
   -Business strategy resources
   -Webinars
   
-  We at ProjectASK hope that you find business success through our services :)""", color=discord.Color.blue())
+  We at ResourceASK hope that you find business success through our services :)""", color=discord.Color.blue())
   await member.send(embed=embed)
   return
 
@@ -49,7 +49,7 @@ async def on_member_join(member):
 async def log(ctx):
   user = ctx.message.author
   embed = discord.Embed(name="Log a resorce", description = "Hi " +ctx.author.mention + 
-  "\nIn order to log a resource please await for a private message from the ProjectASK Bot." +
+  "\nIn order to log a resource please await for a private message from the ResourceASK Bot." +
   "\nPlease remember this resource has to go through a credibility check so there may be a delay in addition to the database.", color=discord.Color.blue())
   await ctx.send(embed=embed)
   embed = discord.Embed(name= "Log a resource", description = "Hi " +ctx.author.mention + 
